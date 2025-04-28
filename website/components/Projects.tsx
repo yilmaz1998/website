@@ -9,12 +9,12 @@ import {
 
 const Projects = () => {
   return (
-    <div className="mt-10 w-full max-w-3xl text-center mx-auto">
+    <div className="px-2 md:px-3 mt-10 w-full max-w-3xl text-center mx-auto">
       <h1 className="text-3xl font-semibold mb-6">My Projects</h1>
       <Accordion type="single" collapsible className="w-full">
         {projects.map((project, index) => (
           <AccordionItem key={index} value={`item-${index}`}>
-            <AccordionTrigger className="cursor-pointer hover:no-underline">{project.name}</AccordionTrigger>
+            <AccordionTrigger className="cursor-pointer hover:no-underline text-xl">{project.name}</AccordionTrigger>
             <AccordionContent>
               <div className="flex flex-col items-center gap-6">
                 <div className="flex gap-2">
