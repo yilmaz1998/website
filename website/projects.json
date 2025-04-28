@@ -1,0 +1,38 @@
+[
+    {
+        "name": "VineView",
+        "live": "https://vineview.netlify.app/",
+        "github": "https://github.com/yilmaz1998/VineView-frontend",
+        "desc": "Built a wine app with a 3,500-entry API, enabling users to sign up, save favorites, and leave reviews for an interactive experience.",
+        "images": ["343434343.jpg", "343434343343.jpg"]
+    },
+    {
+        "name": "LiquidLounge",
+        "live": "https://liquid-lounge.netlify.app/",
+        "github": "https://github.com/yilmaz1998/LiquidLounge-frontend",
+        "desc": "Developed a cocktail app inspired by bartending, featuring 50 classic drinks. Users can sign up, save favorites, create custom cocktails, and review others' drinks.",
+        "images": ["1718819058970.jpeg", "1718819193632.jpeg"]
+    },
+    {
+        "name": "Order-Eatz (Group Project)",
+        "live": "https://order-eatz.netlify.app/",
+        "github": "https://github.com/psantos2107/order-eatz-frontend",
+        "desc": "Co-developed an online ordering app with a team of four, enabling user authentication, order management, and mock payments. Strengthened teamwork, communication, and Git branching skills.",
+        "images": ["1718818399931.jpeg", "1718818417987.jpeg"]
+    },
+    {
+        "name": "MovieGram",
+        "live": "https://moviegram-86d43202f567.herokuapp.com/session/new",
+        "github": "https://github.com/yilmaz1998/Project-2-MovieGram",
+        "desc": "Built a movie app with Express-session authentication, allowing users to create, edit, and delete their movies while commenting on others' films.",
+        "images": ["1718817410887.jpeg", "1718817427191.jpeg"]
+    },
+    {
+        "name": "Capitals Quiz Game",
+        "live": "https://yilmaz1998.github.io/Project-1-QuizGame/",
+        "github": "https://github.com/yilmaz1998/Project-1",
+        "desc": "Created a quiz game featuring the capitals of 20 countries, with a timer and an option to quit anytime. Players receive their score at the end.",
+        "images": ["1718816264577.jpeg", "1718816281408.jpeg"]
+    }
+]
+  
