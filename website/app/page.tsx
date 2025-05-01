@@ -41,7 +41,7 @@ const Page = () => {
         transition={{ duration: 0.5 }}
       >
       <p className="text-xl max-w-3xl mx-auto mb-15 mt-6 px-2 md:px-3">
-      In 2022, I moved to the U.S. and decided to follow my passion for technology. I completed the General Assembly Software Engineering Bootcamp in June 2024, where I gained hands-on experience in full-stack web development. With my roots in mechanical engineering and years of working in the restaurant industry, I’ve developed a solid work ethic, people skills, and a love for solving problems. I’m excited to start this new chapter as a software developer and keep learning every step of the way.
+      In 2022, I moved to the U.S. and decided to follow my passion for technology. I completed the General Assembly Software Engineering Bootcamp in June 2024, where I gained hands-on experience in full-stack web development. With my roots in mechanical engineering and years of working in the restaurant industry, I&apos;ve developed a solid work ethic, people skills, and a love for solving problems. I&apos;m excited to start this new chapter as a software developer and keep learning every step of the way.
         </p>
       </motion.div>
         <FadeInOnView><Education /></FadeInOnView>
