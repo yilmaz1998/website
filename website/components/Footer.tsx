@@ -8,7 +8,7 @@ const Footer = () => {
         href="https://github.com/yilmaz1998"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition"
+        className="text-gray-200 hover:text-gray-400 transition"
       >
         <FaGithub size={24} />
       </a>
@@ -16,7 +16,7 @@ const Footer = () => {
         href="https://www.linkedin.com/in/sinan-yilmazz/"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-600 hover:text-blue-300 transition"
+        className="text-blue-500 hover:text-blue-700 transition"
       >
         <FaLinkedin size={24} />
       </a>
