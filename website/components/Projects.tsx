@@ -10,7 +10,7 @@ import {
 const Projects = () => {
   return (
     <div className="px-2 mt-10 w-full max-w-3xl text-center mx-auto">
-      <h1 className="text-3xl font-semibold mb-6">My Projects</h1>
+      <h1 className="text-4xl font-semibold mb-10">My Projects</h1>
       <Accordion type="single" collapsible className="w-full">
         {projects.map((project, index) => (
           <AccordionItem key={index} value={`item-${index}`}>
@@ -32,8 +32,8 @@ const Projects = () => {
                 <div>
                   <p className="mb-2">{project.desc}</p>
                   <div className='flex justify-center items-center gap-3 text-center'>
-                    <a href={project.live} target="_blank" className="text-blue-600 block">Live Site</a>
-                    <a href={project.github} target="_blank" className="text-blue-600">GitHub</a>
+                    <a href={project.live} target="_blank" className="text-blue-600 hover:text-blue-800">Live Site</a>
+                    <a href={project.github} target="_blank" className="text-blue-600 hover:text-blue-800">GitHub</a>
                   </div>
                 </div>
               </div>

@@ -31,8 +31,8 @@ const Page = () => {
         className="flex flex-col md:flex-row items-center justify-center gap-12 mb-10">
       <img src={'/images/Sinan.jpg'} className="mt-10 rounded-full w-64 h-64 sm:w-48 sm:h-48 md:w-64 md:h-64" />
       <div className="relative text-center items-center justify-center">
-      <h1 className="text-4xl font-extrabold">Sinan Yilmaz</h1>
-      <p className="text-gray-500">Software Developer</p>
+      <h1 className="text-5xl font-extrabold">Sinan Yilmaz</h1>
+      <p className="text-lg mt-1 text-gray-500">Software Developer</p>
       </div>
       </motion.div>
       <motion.div
@@ -40,7 +40,7 @@ const Page = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
       >
-      <p className="text-lg max-w-3xl mx-auto mb-15 mt-6 px-2 md:px-3">
+      <p className="text-xl max-w-3xl mx-auto mb-15 mt-6 px-2 md:px-3">
       In 2022, I moved to the U.S. and decided to follow my passion for technology. I completed the General Assembly Software Engineering Bootcamp in June 2024, where I gained hands-on experience in full-stack web development. With my roots in mechanical engineering and years of working in the restaurant industry, I’ve developed a solid work ethic, people skills, and a love for solving problems. I’m excited to start this new chapter as a software developer and keep learning every step of the way.
         </p>
       </motion.div>

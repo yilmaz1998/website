@@ -6,9 +6,9 @@ const skills = ['JavaScript', 'React', 'Next.js', 'Node.js', 'Express', 'MongoDB
 const Skills = () => {
   return (
     <div className='mt-15 mb-15 w-full max-w-3xl text-center mx-auto'>
-        <h1 className='text-3xl text-center font-semibold mb-10'>My Skills</h1>
+        <h1 className='text-4xl text-center font-semibold mb-10'>My Skills</h1>
         {skills.map((skill, index) => (
-            <Badge variant="secondary" key={index} className='m-2 px-2'>
+            <Badge variant="secondary" key={index} className='m-2 px-2 text-md'>
               {skill}
             </Badge>
         ))}
