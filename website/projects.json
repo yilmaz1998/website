@@ -8,7 +8,7 @@
         "name": "VineView",
         "live": "https://vineview.netlify.app/",
         "github": "https://github.com/yilmaz1998/VineView-frontend",
-        "desc": "Built a wine app with a 3,500-entry API, enabling users to sign up, save favorites, and leave reviews for an interactive experience.",
+        "desc": "Built a wine app with a 3,500-entry API featuring infinite scroll, enabling users to sign up, save favorites, and leave reviews for an interactive experience.",
         "images": ["Screenshot 2025-08-18 at 12.50.46 AM.png", "Screenshot 2025-08-18 at 12.51.12 AM.png"]
     },
     {
