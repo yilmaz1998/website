@@ -1,5 +1,10 @@
 [
     {
+        "name": "La Gabbia",
+        "live": "https://la-gabbia-frontend.vercel.app/",
+        "desc": "An online restaurant ordering system with live order tracking, admin management, and automatic email confirmation sent to customers when they place an order.",
+        "images": ["LaGabbia.png", "LaGabbia2.png"]
+    },{
         "name": "Vidipedia",
         "live": "http://24.144.67.112:6970/",
         "desc": "Collaborated on developing a video streaming platform with features such as user authentication, video uploads, comments, likes, notifications, user profiles, and customizable user settings.",

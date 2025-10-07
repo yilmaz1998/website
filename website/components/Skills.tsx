@@ -1,7 +1,7 @@
 import React from 'react'
 import { Badge } from "@/components/ui/badge"
 
-const skills = ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL','Python', 'Django', 'HTML', 'CSS', 'Zustand', 'Firebase', 'Docker', 'Kubernetes', 'Prisma', 'Knex.js', 'Tailwind CSS', 'Bootstrap', 'ShadCN UI', 'Material UI', 'Jest', 'Postman 2', 'Vercel', 'Heroku', 'Netlify', 'Trello', 'Jira', 'Slack']
+const skills = ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'HTML', 'CSS', 'Redux', 'Zustand','Socket.io', 'Firebase', 'Docker', 'Kubernetes', 'Prisma', 'Knex.js', 'Tailwind CSS', 'Bootstrap', 'ShadCN UI', 'Material UI', 'Jest', 'Postman 2', 'Vercel', 'Heroku', 'Netlify', 'Trello', 'Jira', 'Slack']
 
 const Skills = () => {
   return (
