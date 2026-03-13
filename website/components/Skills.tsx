@@ -1,8 +1,14 @@
 import React from 'react'
 import { Badge } from "@/components/ui/badge"
 
-const skills = ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'HTML', 'CSS', 'Redux', 'Zustand','Socket.io', 'Firebase', 'Docker', 'Kubernetes', 'Prisma', 'Knex.js', 'Tailwind CSS', 'Bootstrap', 'ShadCN UI', 'Material UI', 'Jest', 'Postman 2', 'Vercel', 'Heroku', 'Netlify', 'Trello', 'Jira', 'Slack']
-
+const skills = [
+  'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express', 
+  'MongoDB', 'PostgreSQL', 'HTML', 'CSS', 'Redux', 'Zustand','Socket.io', ' TanStack Query',
+  'Firebase', 'Docker', 'Kubernetes', 'Prisma', 'Knex.js', 'Tailwind CSS', 
+  'Bootstrap', 'ShadCN UI', 'Material UI', 'Jest', 'Postman 2', 'Vercel', 
+  'Heroku', 'Netlify', 'GitHub', 'OpenAI API', 'GPT-4o-mini', 'ChromaDB', 'LangChain', 'Large Language Models (LLMs)',
+  'Document Embeddings', 'Contextual Q&A', 'Prompt Engineering', 'RAG (Retrieval-Augmented Generation)', 'Vector Databases', 'Semantic Search',
+];
 const Skills = () => {
   return (
     <div className='mt-15 mb-15 w-full max-w-3xl text-center mx-auto'>

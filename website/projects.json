@@ -1,7 +1,15 @@
 [
     {
+        "name": "Docu AI (No Deployment. Youtube Demo Available)",
+        "live": "https://www.youtube.com/watch?v=JI4U8W84e10",
+        "github": "https://github.com/yilmaz1998/DocuAI",
+        "desc": "An interactive web application that allows users to ask React, JavaScript, and web development questions and receive contextual answers powered by OpenAI GPT-4o-mini, with document embeddings stored in ChromaDB. Built with React, Tailwind CSS, Node.js, and Express.",
+        "images": ["DocuAI2.png", "DocuAI.jpg"]
+    },
+    {
         "name": "La Gabbia",
         "live": "https://la-gabbia-frontend.vercel.app/",
+        "github": "https://github.com/yilmaz1998/La-Gabbia-Frontend",
         "desc": "An online restaurant ordering system with live order tracking, admin management, and automatic email confirmation sent to customers when they place an order.",
         "images": ["LaGabbia.png", "LaGabbia2.png"]
     },{
