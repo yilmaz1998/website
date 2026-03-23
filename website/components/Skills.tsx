@@ -6,7 +6,7 @@ const skills = [
   'MongoDB', 'PostgreSQL', 'HTML', 'CSS', 'Redux', 'Zustand','Socket.io', ' TanStack Query',
   'Firebase', 'Docker', 'Kubernetes', 'Prisma', 'Knex.js', 'Tailwind CSS', 
   'Bootstrap', 'ShadCN UI', 'Material UI', 'Jest', 'Postman 2', 'Vercel', 
-  'Heroku', 'Netlify', 'GitHub', 'OpenAI API', 'GPT-4o-mini', 'ChromaDB', 'LangChain', 'Large Language Models (LLMs)',
+  'Heroku', 'Netlify', 'GitHub', 'OpenAI API', 'ChromaDB', 'LangChain', 'Large Language Models (LLMs)',
   'Document Embeddings', 'Contextual Q&A', 'Prompt Engineering', 'RAG (Retrieval-Augmented Generation)', 'Vector Databases', 'Semantic Search',
 ];
 const Skills = () => {
