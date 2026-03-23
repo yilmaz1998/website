@@ -31,7 +31,7 @@ const Education = () => {
 
         <div className="text-left">
           <div className="flex justify-between items-center text-xl font-semibold">
-          <span>Borsa Istanbul Technical High School</span>
+          <span>Tech High School</span>
             <span className="text-gray-500">09/2013 - 06/2017</span>
           </div>
           <p className="mt-2 text-gray-400 text-lg">
