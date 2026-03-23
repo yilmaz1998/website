@@ -3,7 +3,7 @@ import React from 'react'
 const Education = () => {
   return (
     <div className="px-2 max-w-3xl text-center mb-15 mx-auto">
-      <h1 className="text-4xl font-semibold mt-10 mb-15">Education</h1>
+      <h1 className="text-4xl font-semibold mt-10 mb-10">Education</h1>
 
       <div className="flex flex-col gap-8">
 
