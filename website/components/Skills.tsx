@@ -7,7 +7,8 @@ const skills = [
   'Firebase', 'Docker', 'Kubernetes', 'Prisma', 'Knex.js', 'Tailwind CSS', 
   'Bootstrap', 'ShadCN UI', 'Material UI', 'Jest', 'Postman 2', 'Vercel', 
   'Heroku', 'Netlify', 'GitHub', 'OpenAI API', 'ChromaDB', 'LangChain', 'Large Language Models (LLMs)',
-  'Document Embeddings', 'Contextual Q&A', 'Prompt Engineering', 'RAG (Retrieval-Augmented Generation)', 'Vector Databases', 'Semantic Search',
+  'Document Embeddings', 'Contextual Q&A', 'Prompt Engineering', 'RAG (Retrieval-Augmented Generation)', 'Vector Databases', 'Semantic Search', 
+  'Abstract Systax Tree (AST) Analysis', 'Code Generation', 'AI-Powered Applications', 'Babel Parser'
 ];
 const Skills = () => {
   return (

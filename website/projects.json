@@ -1,5 +1,12 @@
 [
     {
+        "name": "ASTra (No Deployment. Youtube Demo Available)",
+        "live": "https://www.youtube.com/watch?v=EBDBhw5YfnU",
+        "github": "https://github.com/yilmaz1998/ASTra",
+        "desc": "Built ASTra, an AI-powered JavaScript code review system that combines static analysis (AST parsing) with LLMs to detect code issues (unused variables, console usage, long functions) and provide structured, line-level explanations and suggestions to fix issues.",
+        "images": ["ASTra.png", "ASTra1.png"]
+    },
+    {
         "name": "Docu AI (No Deployment. Youtube Demo Available)",
         "live": "https://www.youtube.com/watch?v=JI4U8W84e10",
         "github": "https://github.com/yilmaz1998/DocuAI",
