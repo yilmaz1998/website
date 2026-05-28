@@ -1,5 +1,12 @@
 [
     {
+        "name": "FleetHire AI (No Deployment. Youtube Demo Available)",
+        "live": "https://www.youtube.com/watch?v=XoAS-XNoQUY",
+        "github": "https://github.com/yilmaz1998/FleetHire-AI",
+        "desc": "Built an AI-powered ATS dashboard that analyzes PDF resumes and generates recruiter-focused hiring insights, interview questions, and candidate risk indicators for logistics roles.",
+        "images": ["fleethire.png", "fleethire2.png"]
+    },
+    {
         "name": "ASTra (No Deployment. Youtube Demo Available)",
         "live": "https://www.youtube.com/watch?v=EBDBhw5YfnU",
         "github": "https://github.com/yilmaz1998/ASTra",

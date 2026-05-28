@@ -28,7 +28,7 @@ const Page = () => {
         initial={{ opacity: 0, x: 15 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
-        className="flex flex-col md:flex-row items-center justify-center gap-12 mb-10">
+        className="flex flex-col md:flex-row items-center justify-center sm:gap-24 gap-12 mb-10">
         <img src={'/images/Sinan.jpg'} className="mt-10 rounded-full w-64 h-64 sm:w-48 sm:h-48 md:w-64 md:h-64" />
         <div className="relative text-center items-center justify-center">
           <h1 className="text-5xl font-extrabold">Sinan Yilmaz</h1>
@@ -40,7 +40,7 @@ const Page = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="text-xl max-w-3xl mx-auto mb-15 mt-6 px-2 md:px-3">
+        <p className="text-xl max-w-4xl mx-auto mb-15 mt-6 px-2 md:px-3">
           Full-stack software engineer with a background in mechanical engineering, focused on building full-stack and AI-powered applications. 
           I create scalable, user-focused products using modern web technologies and LLM integrations.
           I moved to the U.S. in 2022 and began pursuing my passion for technology, completing a full-stack software engineering bootcamp in July 2024. 

@@ -9,7 +9,7 @@ import {
 
 const Projects = () => {
   return (
-    <div className="px-2 mt-15 w-full max-w-3xl text-center mx-auto">
+    <div className="px-2 mt-15 w-full max-w-4xl text-center mx-auto">
       <h1 className="text-4xl font-semibold mb-10">My Projects</h1>
       <Accordion type="single" collapsible className="w-full">
         {projects.map((project, index) => (
@@ -21,12 +21,12 @@ const Projects = () => {
                   <img
                     src={`/images/${project.images[0]}`}
                     alt={project.name}
-                    className="w-48 h-32 object-cover rounded-lg sm:w-64 sm:h-48 md:w-80 md:h-56"
+                    className="w-48 h-32 object-cover rounded-lg sm:w-64 sm:h-48 md:w-96 md:h-56"
                   />
                   <img
                     src={`/images/${project.images[1]}`}
                     alt={project.name}
-                    className="w-48 h-32 object-cover rounded-lg sm:w-64 sm:h-48 md:w-80 md:h-56"
+                    className="w-48 h-32 object-cover rounded-lg sm:w-64 sm:h-48 md:w-96 md:h-56"
                   />
                 </div>
                 <div>
