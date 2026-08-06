@@ -41,10 +41,10 @@ const Page = () => {
         transition={{ duration: 0.5 }}
       >
         <p className="text-xl max-w-4xl mx-auto mb-15 mt-6 px-2 md:px-3">
-          Full-stack software engineer with a background in mechanical engineering, focused on building full-stack and AI-powered applications. 
+          Full-stack software engineer with a background in mechanical engineering, focused on building full-stack and AI-powered applications.
           I create scalable, user-focused products using modern web technologies and LLM integrations.
-          I moved to the U.S. in 2022 and began pursuing my passion for technology, completing a full-stack software engineering bootcamp in July 2024. 
-          Since then, I’ve been continuously building and improving my skills.        
+          I moved to the U.S. in 2022 and began pursuing my passion for technology, completing a full-stack software engineering bootcamp in July 2024.
+          Since then, I’ve been continuously building and improving my skills.
         </p>
       </motion.div>
       <FadeInOnView><Education /></FadeInOnView>

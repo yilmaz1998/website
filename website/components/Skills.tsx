@@ -2,14 +2,82 @@ import React from 'react'
 import { Badge } from "@/components/ui/badge"
 
 const skills = [
-  'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express', 
-  'MongoDB', 'PostgreSQL', 'HTML', 'CSS', 'Redux', 'Zustand','Socket.io', ' TanStack Query',
-  'Firebase', 'Docker', 'Kubernetes', 'Prisma', 'Knex.js', 'Tailwind CSS', 
-  'Bootstrap', 'ShadCN UI', 'Material UI', 'Jest', 'Postman 2', 'Vercel', 
-  'Heroku', 'Netlify', 'GitHub', 'OpenAI API', 'ChromaDB', 'LangChain', 'Large Language Models (LLMs)',
-  'Document Embeddings', 'Contextual Q&A', 'Prompt Engineering', 'RAG (Retrieval-Augmented Generation)', 'Vector Databases', 'Semantic Search', 
-  'Abstract Syntax Tree (AST) Analysis', 'Code Generation', 'AI-Powered Applications', 'Babel Parser'
+  // Languages
+  'JavaScript',
+  'TypeScript',
+
+  // Frontend
+  'React',
+  'Next.js',
+  'Redux',
+  'Zustand',
+  'TanStack Query',
+  'Tailwind CSS',
+  'ShadCN UI',
+  'Material UI',
+  'Bootstrap',
+
+  // Backend
+  'Node.js',
+  'Express',
+  'REST APIs',
+  'Redis',
+  'JWT Authentication',
+  'Socket.io',
+
+  // Databases
+  'PostgreSQL',
+  'MongoDB',
+  'Prisma',
+  'Knex.js',
+
+  // Cloud & DevOps
+  'Docker',
+  'Kubernetes',
+  'Minikube',
+  'Terraform',
+  'AWS S3',
+  'LocalStack',
+  'Git',
+  'GitHub',
+  'CI/CD',
+  'Vercel',
+  'Heroku',
+  'Netlify',
+
+  // ETL & Data Engineering
+  'ETL Pipelines',
+  'CSV Processing',
+  'Data Validation',
+  'Data Transformation',
+
+  // Monitoring & Observability
+  'Prometheus',
+  'Datadog',
+  
+  // Testing & Tools
+  'Jest',
+  'Postman',
+
+  // AI / LLM
+  'OpenAI API',
+  'LangChain',
+  'ChromaDB',
+  'Vector Databases',
+  'Document Embeddings',
+  'Semantic Search',
+  'RAG (Retrieval-Augmented Generation)',
+  'Prompt Engineering',
+  'Contextual Q&A',
+  'Large Language Models (LLMs)',
+  'AI-Powered Applications',
+
+  // Static Analysis / Compiler
+  'Abstract Syntax Tree (AST) Analysis',
+  'Babel Parser',
+  'Code Generation'
 ];
+
 const Skills = () => {
   return (
     <div className='mt-10 mb-15 w-full max-w-4xl text-center mx-auto'>
