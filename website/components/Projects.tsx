@@ -18,21 +18,35 @@ const Projects = () => {
             <AccordionContent>
               <div className="flex flex-col items-center gap-6">
                 <div className="flex gap-2">
-                  <img
-                    src={`/images/${project.images[0]}`}
-                    alt={project.name}
-                    className="w-48 h-32 object-cover rounded-lg sm:w-64 sm:h-48 md:w-96 md:h-56"
-                  />
-                  <img
-                    src={`/images/${project.images[1]}`}
-                    alt={project.name}
-                    className="w-48 h-32 object-cover rounded-lg sm:w-64 sm:h-48 md:w-96 md:h-56"
-                  />
+                  {project.images?.[0] && (
+                    <img
+                      src={`/images/${project.images[0]}`}
+                      alt={project.name}
+                      className="w-48 h-32 object-cover rounded-lg sm:w-64 sm:h-48 md:w-96 md:h-56"
+                    />
+                  )}
+
+                  {project.images?.[1] && (
+                    <img
+                      src={`/images/${project.images[1]}`}
+                      alt={project.name}
+                      className="w-48 h-32 object-cover rounded-lg sm:w-64 sm:h-48 md:w-96 md:h-56"
+                    />
+                  )}
                 </div>
                 <div>
                   <p className="mb-2">{project.desc}</p>
                   <div className='flex justify-center items-center gap-3 text-center'>
-                    <a href={project.live} target="_blank" className="text-blue-600 hover:text-blue-800">Live Site</a>
+                    {project.live && (
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800"
+                      >
+                        Live Site
+                      </a>
+                    )}
                     <a href={project.github} target="_blank" className="text-blue-600 hover:text-blue-800">GitHub</a>
                   </div>
                 </div>

@@ -1,5 +1,11 @@
 [
     {
+        "name": "ETL Pipeline (Backend Project)",
+        "github": "https://github.com/yilmaz1998/etl-pipeline",
+        "desc": "Developed a cloud-native ETL pipeline that extracts CSV data from an S3 bucket, processes data through validation and transformation workflows, and loads processed data into PostgreSQL with Terraform and Kubernetes infrastructure. Prometheus-based monitoring for pipeline observability.",
+        "images": []
+    },
+    {
         "name": "FleetHire AI (No Deployment. Youtube Demo Available)",
         "live": "https://www.youtube.com/watch?v=XoAS-XNoQUY",
         "github": "https://github.com/yilmaz1998/FleetHire-AI",
@@ -26,11 +32,6 @@
         "github": "https://github.com/yilmaz1998/La-Gabbia-Frontend",
         "desc": "An online restaurant ordering system with live order tracking, admin management, and automatic email confirmation sent to customers when they place an order.",
         "images": ["LaGabbia.png", "LaGabbia2.png"]
-    },{
-        "name": "Vidipedia",
-        "live": "http://24.144.67.112:6970/",
-        "desc": "Collaborated on developing a video streaming platform with features such as user authentication, video uploads, comments, likes, notifications, user profiles, and customizable user settings.",
-        "images": ["Screenshot-2025-08-17-at-11.21.30 PM.jpeg", "Screenshot-2025-08-17-at-11.23.11 PM.jpeg"]
     },{
         "name": "VineView",
         "live": "https://vineview.netlify.app/",
